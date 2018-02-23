@@ -2,8 +2,8 @@
 
    $(window).on('load', function() { 
       	var element = document.getElementById('top-heading');
-		element.style.styleFloat = 'right';
-		element.style.cssFloat = 'right';
+		// element.style.styleFloat = 'right';
+		// element.style.cssFloat = 'right';
     });
 
     // and/or
