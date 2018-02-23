@@ -48,13 +48,13 @@ div.right-top {
 }
 
 @media screen and (max-width: 767px) {
-	.right-top {
+	div.right-top {
 		width: 100%;
 	}
 }
 
 @media all and (min-width: 768px) {
-	.right-top {
+	div.right-top {
 		background-color: #000;
 	}
 }
