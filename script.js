@@ -10,6 +10,7 @@
 
     $(document).ready(function(){
         // the dom is in place, but everything is not necessarily loaded
+        // this is another simple comment
     });
 
 })(jQuery);

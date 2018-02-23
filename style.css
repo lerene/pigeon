@@ -2,6 +2,11 @@ h2 {
 	color: red;
 }
 
+p {
+	padding: 15px;
+	color: #fff;
+	background-color: darkolivegreen;
+}
 
 h4 { 
 	color: blue;
