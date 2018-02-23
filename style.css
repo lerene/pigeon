@@ -31,6 +31,15 @@ div.inside-right {
 	width: 80%;
 }
 
+div.right-top {
+	 background-color: #089AFC; 
+	 padding: 20px; 
+	 width: 50%; 
+	 color: #fff; 
+	 text-transform: uppercase; 
+	 font-family: sans-serif;
+}
+
 div.footer {
 	float: left;
 	width: 100%;
