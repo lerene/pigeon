@@ -23,7 +23,12 @@ div.inside-left {
 	float: left;
 	width: 20%;
 	background-color: #ffefd5;
+	display: flex;
+}
 
+.inside-left .menu-item {
+	flex-direction: column;
+	flex: 1;
 }
 
 div.inside-right {
