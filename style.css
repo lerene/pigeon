@@ -62,23 +62,23 @@ div.right-top {
 div.footer {
 	float: left;
 	width: 100%;
-	background-color: #F0E68C;
-	padding: 20px;
+	background-color: lightpink;
+	padding: 25px;
 }
 
-img.animal {
+img.city {
 	float: right;
 	border: 1px dotted #ccc;
 	margin: 10px;
 	padding: 10px;
 
-}img.animal.jpg {
+}img.city.jpg {
 	float: right;
 	border: 1px dotted #ccc;
 	margin: 10px;
 	padding: 10px;
 
-}img.animal.jpg {
+}img.city.jpg {
 	float: right;
 	border: 1px dotted #ccc;
 	margin: 10px;
