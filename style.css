@@ -47,6 +47,12 @@ div.right-top {
 	 font-family: sans-serif;
 }
 
+@media all and (max-width: 767px) {
+	.right-top {
+		width: 100%;
+	}
+}
+
 div.footer {
 	float: left;
 	width: 100%;
