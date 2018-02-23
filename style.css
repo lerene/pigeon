@@ -47,7 +47,7 @@ div.right-top {
 	 font-family: sans-serif;
 }
 
-@media screen and (max-width: 1199px) {
+@media all and (max-width: 1199px) {
 	div.right-top {
 		width: 100%;
 	}
