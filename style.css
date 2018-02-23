@@ -34,7 +34,7 @@ div.inside-right {
 div.right-top {
 	 background-color: #089AFC; 
 	 padding: 20px; 
-	 width: 50%; 
+	 /*width: 50%; */
 	 color: #fff; 
 	 text-transform: uppercase; 
 	 font-family: sans-serif;
