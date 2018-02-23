@@ -25,6 +25,7 @@ div.inside-left {
 	background-color: #ffefd5;
 	display: flex;
 	flex-direction: column;
+	height: 480px;
 }
 
 .inside-left .menu-item {
