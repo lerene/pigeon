@@ -24,11 +24,12 @@ div.inside-left {
 	width: 20%;
 	background-color: #ffefd5;
 	display: flex;
+	flex-direction: column;
 }
 
 .inside-left .menu-item {
-	flex-direction: column;
 	flex: 1;
+	flex-grow: 1;
 }
 
 div.inside-right {
