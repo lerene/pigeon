@@ -19,6 +19,16 @@ div.page-wrapper {
 	margin-right: auto;
 }
 
+div.inside-left {
+	float: left;
+	width: 20%;
+}
+
+div.inside-right {
+	float: left;
+	width: 80%;
+}
+
 img.animal {
 	float: right;
 	border: 1px dotted #ccc;
