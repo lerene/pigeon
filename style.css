@@ -53,6 +53,12 @@ div.right-top {
 	}
 }
 
+@media all and (min-width: 768px) {
+	.right-top {
+		background-color: #000;
+	}
+}
+
 div.footer {
 	float: left;
 	width: 100%;
