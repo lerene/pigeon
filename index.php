@@ -23,7 +23,7 @@
 				<div class="inside-right">
 
 					<div class="right-top">
-						<h1 id="top-heading">Living in Rosslyn, Arlington</h1>
+						<h1 id="top-heading">Living in Rosslyn, Arlington in <?php echo date(Y); ?></h1>
 					
 					</div>
 
