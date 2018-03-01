@@ -38,7 +38,7 @@
 <?php 
 
 	
-	if ($time_e>"20:30") {
+	if ($time_e>"20:39") {
 		$rt_class="right-top-pm";
 	} 
 	else {
