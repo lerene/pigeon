@@ -38,8 +38,17 @@ div.inside-right {
 	width: 80%;
 }
 
-div.right-top {
-	 background-color: #089AFC; 
+div.right-top-am {
+	 background-color: blue; 
+	 padding: 20px; 
+	 /*width: 50%; */
+	 color: #fff; 
+	 text-transform: uppercase; 
+	 font-family: sans-serif;
+}
+
+div.right-top-pm {
+	 background-color: black; 
 	 padding: 20px; 
 	 /*width: 50%; */
 	 color: #fff; 
