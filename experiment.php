@@ -1,3 +1,3 @@
-experiment.php
-
-<?php echo "test"; ?>
+<?php
+phpinfo();
+?>
