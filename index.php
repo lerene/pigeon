@@ -22,7 +22,16 @@
 
 				<div class="inside-right">
 
-					<div class="right-top">
+<!-- pseudo code -->
+<!-- first, get time from server -->
+<!-- then, isolate just the time (not date) -->
+<!-- if time > 8:15 pm then set variable class=right-top-pm -->
+<!-- if < 8:15 pm then set variable class=right-top-am -->
+<!-- finally, print variable class in correct place -->
+
+<?php $rt_class="right-top-pm" ?>
+
+					<div class="<? echo $rt_class; ?>">
 						<h1 id="top-heading">Living in Rosslyn, Arlington in <?php echo date(Y); ?></h1>
 					
 					</div>
