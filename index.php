@@ -50,7 +50,6 @@
 						<h1 id="top-heading">Living in Rosslyn, Arlington in 
 				<?php 
 					echo date(Y); 
-					echo $time_e; 
 				?>
 					
 
