@@ -35,7 +35,16 @@
 <!-- if time > 8:15 pm then set variable class=right-top-pm -->
 <!-- if < 8:15 pm then set variable class=right-top-am -->
 
-<?php $rt_class="right-top-pm" ?>
+<?php 
+
+	
+	if ($time_e>"20:30") {
+		$rt_class="right-top-pm";
+	} 
+	else {
+		$rt_class="right-top-am";
+	}
+	?>
 
 					<div class="<?php echo $rt_class; ?>">
 						<h1 id="top-heading">Living in Rosslyn, Arlington in 
@@ -44,7 +53,7 @@
 					echo $time_e; 
 				?>
 					
-					
+
 				</h1>
 					
 					</div>
