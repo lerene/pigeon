@@ -23,16 +23,29 @@
 				<div class="inside-right">
 
 <!-- pseudo code -->
+
 <!-- first, get time from server -->
 <!-- then, isolate just the time (not date) -->
+<?php 
+
+	date_default_timezone_set('America/New_York');
+	$time_e=date('H:i', $_SERVER['REQUEST_TIME']);
+?>
+
 <!-- if time > 8:15 pm then set variable class=right-top-pm -->
 <!-- if < 8:15 pm then set variable class=right-top-am -->
-<!-- finally, print variable class in correct place -->
 
 <?php $rt_class="right-top-pm" ?>
 
 					<div class="<?php echo $rt_class; ?>">
-						<h1 id="top-heading">Living in Rosslyn, Arlington in <?php echo date(Y); ?></h1>
+						<h1 id="top-heading">Living in Rosslyn, Arlington in 
+				<?php 
+					echo date(Y); 
+					echo $time_e; 
+				?>
+					
+					
+				</h1>
 					
 					</div>
 
