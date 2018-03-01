@@ -31,7 +31,7 @@
 
 <?php $rt_class="right-top-pm" ?>
 
-					<div class="<? echo $rt_class; ?>">
+					<div class="<?php echo $rt_class; ?>">
 						<h1 id="top-heading">Living in Rosslyn, Arlington in <?php echo date(Y); ?></h1>
 					
 					</div>
