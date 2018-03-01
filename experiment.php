@@ -1,3 +1,3 @@
 <?php
-phpinfo();
+echo "Welcome to Washington Digital Media";
 ?>
