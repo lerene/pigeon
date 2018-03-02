@@ -9,7 +9,7 @@ p {
 }
 
 h4 { 
-	color: blue;
+	color: black;
 }
 
 div.page-wrapper {
@@ -26,6 +26,7 @@ div.inside-left {
 	display: flex;
 	flex-direction: column;
 	height: 480px;
+	padding: 25px;
 }
 
 .inside-left .menu-item {
