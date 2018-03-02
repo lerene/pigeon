@@ -17,7 +17,7 @@
 					<div class="menu-item"><h3>Housing information</h3></div>
 					<div class="menu-item"><h4>Transportation</h4></div>
 					<div class="menu-item"><h5>Grocery Stores</h5></div>
-					<div class="menu-item"><h6>Young couples life</h6></div>
+					<div class="menu-item"><h6>Couples' life</h6></div>
 				</div>
 
 				<div class="inside-right">
@@ -47,7 +47,7 @@
 	?>
 
 					<div class="<?php echo $rt_class; ?>">
-						<h1 id="top-heading">Living in Rosslyn, Arlington in 
+						<h1 id="top-heading">Life in Rosslyn, Arlington in 
 				<?php 
 					echo date(Y); 
 				?>
@@ -62,9 +62,9 @@
 
 						<!-- Paragraph -->
 						<p>
-							Rosslyn /ˈrɒzlɪn/ is a heavily urbanized unincorporated area in Northern Virginia located in the northeastern corner of Arlington County, Virginia, north of Arlington National Cemetery and directly across the Potomac River from Georgetown and Foggy Bottom in Washington, D.C.
+							Rosslyn is a heavily urbanized unincorporated area in Northern Virginia located in the northeastern corner of Arlington County, Virginia, north of Arlington National Cemetery and directly across the Potomac River from Georgetown and Foggy Bottom in Washington, D.C.
 
-							Rosslyn encompasses the Arlington neighborhoods of North Rosslyn and Radnor/Ft. Myer Heights, and is located east of Courthouse, another urbanized Arlington neighborhood. Characterized as one of several "urban villages" by the County, the numerous skyscrapers in the dense business section of Rosslyn make its appearance in some ways more urban than nearby Washington. Rosslyn residents have an average household income of $105,000 and 81% are college graduates.[1]
+							Rosslyn encompasses the Arlington neighborhoods of North Rosslyn and Radnor/Ft. Myer Heights, and is located east of Courthouse, another urbanized Arlington neighborhood. Characterized as one of several "urban villages" by the County, the numerous skyscrapers in the dense business section of Rosslyn make its appearance in some ways more urban than nearby Washington. Rosslyn residents have an average household income of $105,000 and 81% are college graduates.
 
 							Notable establishments in the neighborhood include ABC 7 (WJLA-TV) located in the Rosslyn Twin Towers, and Marriott International's longest operating hotel, the Key Bridge Marriott. Notable structures include the United States Marine Corps War Memorial, and the Netherlands Carillon and Freedom Park offer views of the Washington Monument and other Washington landmarks.
 

@@ -27,6 +27,7 @@ div.inside-left {
 	flex-direction: column;
 	height: 480px;
 	padding: 25px;
+	box-sizing: border-box;
 }
 
 .inside-left .menu-item {
