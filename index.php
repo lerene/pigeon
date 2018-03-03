@@ -17,7 +17,7 @@
 					<div class="menu-item"><h3>Benefits of living in Arlington</h3></div>
 					<div class="menu-item"><h3>Housing information</h3></div>
 					<div class="menu-item"><h3>Transportation</h3></div>
-					<div class="menu-item"><h3>Grocery Stores</h3></div>
+					<div class="menu-item"><h3> <a href="reviews.php">Reviews</a></h3></div>
 					<div class="menu-item"><h3>Couples' life</h3></div>
 				</div>
 
