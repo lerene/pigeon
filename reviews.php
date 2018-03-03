@@ -5,8 +5,10 @@
          Restaurant name: <input type = "text" name = "restaurant_name" />
          <br>
          Restaurant address: <input type = "text" name = "restaurant_address" /> 
+         <br>
          Restaurant contact number: <input type="number" name= "restaurant_phone" />
          <input type="submit" name="submit" value="Add Restaurant" />
+
 
       </form>
 
