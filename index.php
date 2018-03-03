@@ -13,11 +13,11 @@
 
 				<div class="inside-left">
 
-					<div class="menu-item"><h2>Benefits of living in Arlington</h2></div>
+					<div class="menu-item"><h3>Benefits of living in Arlington</h3></div>
 					<div class="menu-item"><h3>Housing information</h3></div>
-					<div class="menu-item"><h4>Transportation</h4></div>
-					<div class="menu-item"><h5>Grocery Stores</h5></div>
-					<div class="menu-item"><h6>Couples' life</h6></div>
+					<div class="menu-item"><h3>Transportation</h3></div>
+					<div class="menu-item"><h3>Grocery Stores</h3></div>
+					<div class="menu-item"><h3>Couples' life</h3></div>
 				</div>
 
 				<div class="inside-right">
