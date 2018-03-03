@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 		<link rel="stylesheet" href="style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
 		<script type="text/javascript" src="jquery-3.3.1.js"></script>
 		<script type="text/javascript" src="script.js"></script>
 		<title>HTML</title>
