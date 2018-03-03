@@ -1,11 +1,11 @@
 <?php
-if (isset($_GET['restaurant_name'])) {
-    echo $_GET['restaurant_name'];
+if (isset($_POST['restaurant_name'])) {
+    echo $_POST['restaurant_name'];
 } else {
     // Fallback behaviour goes here
 }
-if (isset($_GET['restaurant_address'])) {
-    echo $_GET['restaurant_address'];
+if (isset($_POST['restaurant_address'])) {
+    echo $_POST['restaurant_address'];
 } else {
     // Fallback behaviour goes here
 }
