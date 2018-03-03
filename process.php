@@ -18,3 +18,8 @@ if (isset($_POST['restaurant_address'])) {
     VALUES ('".$_POST["restaurant_name"]."','".$_POST["restaurant_address"]."')";
 
     $result = mysqli_query($conn,$sql);
+
+?>
+
+<a href="index.php">Main page</a>
+<a href="reviews.php">Add another restaurant</a>
