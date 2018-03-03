@@ -4,9 +4,15 @@
  <form action="process.php" method="POST">
          Restaurant name: <input type = "text" name = "restaurant_name" />
          <br>
+         <br>
          Restaurant address: <input type = "text" name = "restaurant_address" /> 
          <br>
-         Restaurant contact number: <input type="number" name= "restaurant_phone" />
+         <br>
+         Restaurant contact number: <input type="number" name = "restaurant_phone" />
+         <br>
+         <br>
+         Customers' rating: <input type = "number" name = "customers_rating" 
+         />
          <input type="submit" name="submit" value="Add Restaurant" />
 
 
