@@ -40,20 +40,17 @@
 
 	
 	if ($time_e>"21:39") {
-		$rt_class="right-top-pm";
+		$right_top_class="right-top-pm";
 	} 
 	else {
-		$rt_class="abc";
+		$right_top_class="right-top-am";
 		
 	}
 	?>
 
 					<div class="<?php 
 
-									// echo $rt_class;
-						 			echo $rt_class="abc";
-									$rt_class="ghi"; 
-									echo ' # ' . $rt_class; 
+									echo $rt_class;
 
 								?>">
 						<h1 id="top-heading">Life in Rosslyn, Arlington in 
