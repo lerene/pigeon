@@ -23,7 +23,7 @@
 
  </div>
 
-$query="SELECT * FROM MY_TABLE";
+$query="SELECT * FROM soup";
 $results = mysql_query($query);
 
 <div>
