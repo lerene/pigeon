@@ -26,8 +26,11 @@ $query="SELECT * FROM soup";
 ?>
 
 <div>
+	<table>
+		
 	<?php
-	while ($row = mysql_fetch_array($results)) {
+
+	while ($row = mysqli_fetch_array($results)) {
     echo '<tr>';
     foreach($row as $field) {
         echo '<td>' . htmlspecialchars($field) . '</td>';
@@ -35,5 +38,7 @@ $query="SELECT * FROM soup";
     echo '</tr>';
 }
 	?>
+
+	</table>
 </div>
 
