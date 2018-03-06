@@ -20,10 +20,17 @@
 
  </div>
 
+<?php
+
+	include('dbConfig.php');
+
 $query="SELECT * FROM soup";
-$results = mysql_query($query);
+	 	// $results = mysql_query($query);
+		$results = mysqli_query($conn, $sql);
+?>
 
 <div>
+	<?php
 	while ($row = mysql_fetch_array($results)) {
     echo '<tr>';
     foreach($row as $field) {
@@ -31,13 +38,6 @@ $results = mysql_query($query);
     }
     echo '</tr>';
 }
+	?>
 </div>
 
-
-      <!-- pseudo code -->
-
-      <!-- first get rows of data from table restaurant -->
-
-      <!-- then start a php loop -->
-
-      <!-- inside the loop, show all the rows using print or echo -->
