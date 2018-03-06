@@ -15,7 +15,8 @@ if (isset($_POST['restaurant_address'])) {
 }
 
  $sql = "INSERT INTO restaurant (restaurant_name, restaurant_address)
-    VALUES ('".$_POST["restaurant_name"]."','".$_POST["restaurant_address"]."')";
+    VALUES ('".$_POST["restaurant_name"]."','".$_POST["restaurant_address"]."','".$_POST["restaurant_contact"]."','".$_POST["customers_rating"].
+	)";
 
     $result = mysqli_query($conn, $sql);
 

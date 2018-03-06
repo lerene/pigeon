@@ -7,12 +7,9 @@
  	<form action="process.php" method="POST">
          Restaurant name: <input type = "text" name = "restaurant_name" />
          <br>
-         <br>
          Restaurant address: <input type = "text" name = "restaurant_address" /> 
          <br>
-         <br>
-         Restaurant contact number: <input type="number" name = "restaurant_phone" />
-         <br>
+         Restaurant contact: <input type="number" name = "restaurant_phone" />
          <br>
          Customers' rating: <input type = "number" name = "customers_rating" 
          />
