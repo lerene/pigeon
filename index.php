@@ -56,13 +56,13 @@
 									echo ' # ' . $rt_class; 
 
 								?>">
-						<h1 id="top-heading">Life in Rosslyn, Arlington in 
+						<!-- <h1 id="top-heading">Life in Rosslyn, Arlington in  -->
 				<?php 
 					echo date(Y); 
 				?>
 					
 
-				</h1>
+				<!-- </h1> -->
 					
 					</div>
 
