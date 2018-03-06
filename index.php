@@ -51,7 +51,7 @@
 					<div class="<?php 
 
 									// echo $rt_class;
-						 
+						 			echo $rt_class="abc";
 									$rt_class="ghi"; 
 									echo ' # ' . $rt_class; 
 
