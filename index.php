@@ -40,14 +40,15 @@
 
 	
 	if ($time_e>"20:39") {
-		$rt_class="right-top-pm-123-123-123";
+		$rt_class="right-top-pm";
 	} 
 	else {
-		$rt_class="right-top-am-000-000-000";
+		$rt_class="right-top-am-farfi-farfi-farfi";
+		$rt_class="right-top-am";
 	}
 	?>
 
-					<div class="<?php echo $rt_class; ?>">
+					<div class="<?php echo $rt_class; $rt_class="mongoose"; echo $rt_class; ?>">
 						<h1 id="top-heading">Life in Rosslyn, Arlington in 
 				<?php 
 					echo date(Y); 
