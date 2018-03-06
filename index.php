@@ -47,7 +47,7 @@
 	}
 	?>
 
-					<div class="<?php echo $rt_class; ?>">
+					<div class="genghis-khan-records">
 						<h1 id="top-heading">Life in Rosslyn, Arlington in 
 				<?php 
 					echo date(Y); 

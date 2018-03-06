@@ -1,7 +1,10 @@
 <h1 id="top-heading">Life in Rosslyn, Arlington
  </h1>
 
- <form action="process.php" method="POST">
+ <div>
+ 	
+ 
+ 	<form action="process.php" method="POST">
          Restaurant name: <input type = "text" name = "restaurant_name" />
          <br>
          <br>
@@ -16,7 +19,23 @@
          <input type="submit" name="submit" value="Add Restaurant" />
 
 
-      </form>
+ 	</form>
+
+ </div>
+
+$query="SELECT * FROM MY_TABLE";
+$results = mysql_query($query);
+
+<div>
+	while ($row = mysql_fetch_array($results)) {
+    echo '<tr>';
+    foreach($row as $field) {
+        echo '<td>' . htmlspecialchars($field) . '</td>';
+    }
+    echo '</tr>';
+}
+</div>
+
 
       <!-- pseudo code -->
 
