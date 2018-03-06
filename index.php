@@ -39,7 +39,7 @@
 <?php 
 
 	
-	if ($time_e>"21:39") {
+	if ($time_e>"20:39") {
 		$right_top_class="right-top-pm";
 	} 
 	else {
@@ -50,7 +50,7 @@
 
 					<div class="<?php 
 
-									echo $rt_class;
+									echo $right_top_class;
 
 								?>">
 						<h1 id="top-heading">Life in Rosslyn, Arlington in 
