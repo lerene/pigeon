@@ -43,12 +43,12 @@
 		$rt_class="right-top-pm";
 	} 
 	else {
-		$rt_class="right-top-am-farfi-farfi-farfi";
-		$rt_class="right-top-am";
+		$rt_class="abc";
+		$rt_class="def";
 	}
 	?>
 
-					<div class="<?php echo $rt_class; $rt_class="mongoose"; echo $rt_class; ?>">
+					<div class="<?php echo $rt_class; $rt_class="ghi"; echo $rt_class; ?>">
 						<h1 id="top-heading">Life in Rosslyn, Arlington in 
 				<?php 
 					echo date(Y); 
