@@ -40,14 +40,14 @@
 
 	
 	if ($time_e>"20:39") {
-		$rt_class="right-top-pm";
+		$rt_class="right-top-pm-123-123-123";
 	} 
 	else {
-		$rt_class="right-top-am";
+		$rt_class="right-top-am-000-000-000";
 	}
 	?>
 
-					<div class="genghis-khan-records">
+					<div class="<?php echo $rt_class; ?>">
 						<h1 id="top-heading">Life in Rosslyn, Arlington in 
 				<?php 
 					echo date(Y); 
