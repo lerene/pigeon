@@ -23,11 +23,16 @@
 $query="SELECT * FROM soup";
 	 	// $results = mysql_query($query);
 		$results = mysqli_query($conn, $sql);
+
+		if (!$results) {
+    printf("Error: %s\n", mysqli_error($conn));
+    exit();
+}
 ?>
 
 <div>
 	<table>
-		
+
 	<?php
 
 	while ($row = mysqli_fetch_array($results)) {
