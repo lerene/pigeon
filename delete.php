@@ -1,24 +1,16 @@
 <?php
 
-$rabbit = 777;
-
-$house = [
-    "foo" => "4",
-    "bar" => "22",
-];
 
 if (isset($_POST['restaurant_id'])) {
 
-	echo 'attempting to delete row 4 ' . '<br />';
-    echo $rabbit .'<br />';
-    echo $house['foo'] . '<br />';
-
-    echo $_POST['restaurant_id'];
+	echo 'attempting to delete row ';
+ 
+    echo $_POST['restaurant_id'];		
 } else {
     // Fallback behaviour goes here
 }
 
-$rest_id = $house['foo'];
+$rest_id = $_POST['restaurant_id'];
 
 $link = mysqli_connect("localhost", "root", "", "soup");
 
