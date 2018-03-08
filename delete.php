@@ -1,13 +1,17 @@
 <?php
 
 $rabbit = 777;
-$rabbit['40'] = 'I am another rabbit.';
+
+$house = [
+    "foo" => "33",
+    "bar" => "22",
+];
 
 if (isset($_POST['restaurant_id'])) {
 
 	echo 'attempting to delete row ' . '<br />';
     echo $rabbit .'<br />';
-    echo $rabbit['40'] . '<br />';
+    echo $house['foo'] . '<br />';
 
     echo $_POST['restaurant_id'];
 } else {
