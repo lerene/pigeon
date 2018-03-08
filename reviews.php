@@ -18,32 +18,42 @@
 
 <?php
 
-	include('dbConfig.php');
-
-$query="SELECT * FROM soup";
-	 	// $results = mysql_query($query);
-		$results = mysqli_query($conn, $sql);
-
-		if (!$results) {
-    printf("Error: %s\n", mysqli_error($conn));
-    exit();
+$link = mysqli_connect("localhost", "root", "", "soup");
+ 
+// Check connection
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
 }
+ 
+// Attempt select query execution
+$sql = "SELECT * FROM restaurant";
+if($result = mysqli_query($link, $sql)){
+    if(mysqli_num_rows($result) > 0){
+        echo "<table>";
+            echo "<tr>";
+                echo "<th>id</th>";
+                echo "<th>Restaurant</th>";
+                echo "<th>Address</th>";
+            echo "</tr>";
+        while($row = mysqli_fetch_array($result)){
+            echo "<tr>";
+                echo "<td>" . $row['restaurant_id'] . "</td>";
+                echo "<td>" . $row['restaurant_name'] . "</td>";
+                echo "<td>" . $row['restaurant_address'] . "</td>";
+            echo "</tr>";
+        }
+        echo "</table>";
+        // Free result set
+        mysqli_free_result($result);
+    } else{
+        echo "No records matching your query were found.";
+    }
+} else{
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+}
+ 
+// Close connection
+mysqli_close($link);
 ?>
 
-<div>
-	<table>
-
-	<?php
-
-	while ($row = mysqli_fetch_array($results)) {
-    echo '<tr>';
-    foreach($row as $field) {
-        echo '<td>' . htmlspecialchars($field) . '</td>';
-    }
-    echo '</tr>';
-}
-	?>
-
-	</table>
-</div>
 
