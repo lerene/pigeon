@@ -11,8 +11,7 @@ if (isset($_POST['restaurant_id'])) {
 $link = mysqli_connect("localhost", "root", "", "soup");
 
 
- $sql = "DELETE FROM restaurant WHERE restaurant_id = '".$restaurant_id."'";
- $sql .= "VALUES ('".$_POST["restaurant_name"]."','".$_POST["restaurant_address"]."')";
+ $sql = "DELETE FROM restaurant WHERE restaurant_id = 2;
 
     $result = mysqli_query($link, $sql);
 
