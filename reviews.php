@@ -27,6 +27,8 @@ if($link === false){
  
 // Attempt select query execution
 $sql = "SELECT * FROM restaurant";
+
+
 if($result = mysqli_query($link, $sql)){
     if(mysqli_num_rows($result) > 0){
         echo "<table>";
@@ -56,4 +58,17 @@ if($result = mysqli_query($link, $sql)){
 mysqli_close($link);
 ?>
 
+ <div>
+ 	
+ 
+ 	<form action="delete.php" method="POST">
+         Restaurant id: <input type = "number" name = "restaurant_id" />
+         <br>
+       
+         <input type="submit" name="submit" value="Delete Restaurant" />
+
+
+ 	</form>
+
+ </div>
 
