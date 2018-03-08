@@ -42,6 +42,11 @@ if($result = mysqli_query($link, $sql)){
                 echo "<td>" . $row['restaurant_id'] . "</td>";
                 echo "<td>" . $row['restaurant_name'] . "</td>";
                 echo "<td>" . $row['restaurant_address'] . "</td>";
+           		echo "<td><a href='delete.php'> </a> </td>";
+			
+	
+
+
             echo "</tr>";
         }
         echo "</table>";
