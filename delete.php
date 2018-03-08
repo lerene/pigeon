@@ -1,7 +1,5 @@
 <?php
 
-include('dbConfig.php');
-
 
 if (isset($_POST['restaurant_id'])) {
    echo 'attempting to delete row ';
@@ -10,11 +8,10 @@ if (isset($_POST['restaurant_id'])) {
     // Fallback behaviour goes here
 }
 
-
 $link = mysqli_connect("localhost", "root", "", "soup");
 
 
- $sql = "DELETE FROM restaurant WHERE name = '".$restaurant."'";
+ $sql = "DELETE FROM restaurant WHERE restaurant_id = '".$restaurant_id."'";
  $sql .= "VALUES ('".$_POST["restaurant_name"]."','".$_POST["restaurant_address"]."')";
 
     $result = mysqli_query($link, $sql);
