@@ -61,19 +61,10 @@ if($result = mysqli_query($link, $sql)){
  
 // Close connection
 mysqli_close($link);
+
+include('deleteForm.php');
+
+
+
 ?>
-
- <div>
- 	
- 
- 	<form action="delete.php" method="POST">
-         Restaurant id: <input type = "number" name = "restaurant_id" />
-         <br>
-       
-         <input type="submit" name="submit" value="Delete Restaurant" />
-
-
- 	</form>
-
- </div>
 
