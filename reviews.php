@@ -39,10 +39,11 @@ if($result = mysqli_query($link, $sql)){
             echo "</tr>";
         while($row = mysqli_fetch_array($result)){
             echo "<tr>";
-                echo "<td>" . $row['restaurant_id'] . "</td>";
+               $mcdonalds = $row['restaurant_id'];
+
+              	echo "<td>" . $row['restaurant_id'] . "</td>";
                 echo "<td>" . $row['restaurant_name'] . "</td>";
                 echo "<td>" . $row['restaurant_address'] . "</td>";
-           		echo "<td><a href='delete.php'> Delete </a> </td>";
 				echo "<td>";
 				include('deleteForm.php');
 				echo "</td>";
