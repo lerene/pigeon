@@ -43,7 +43,7 @@ if($result = mysqli_query($link, $sql)){
                 echo "<td>" . $row['restaurant_name'] . "</td>";
                 echo "<td>" . $row['restaurant_address'] . "</td>";
            		echo "<td><a href='delete.php'> Delete </a> </td>";
-			
+				include('deleteForm.php');
 	
 
 
@@ -61,8 +61,6 @@ if($result = mysqli_query($link, $sql)){
  
 // Close connection
 mysqli_close($link);
-
-include('deleteForm.php');
 
 
 
