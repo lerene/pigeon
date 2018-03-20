@@ -4,8 +4,6 @@
  	<form action="delete.php" method="POST">
         
  		
-
-        
          <input type = "hidden" name="restaurant_id" value="<?php echo $mcdonalds; ?>"/>
          <br>
        
